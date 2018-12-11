@@ -1,0 +1,34 @@
+#brandname{
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#intro {
+	text-align: center; 
+}
+.navbar-brand{
+	font-size : 3rem;
+}
+.intro{
+	background-color: black; 
+}
+
+.jumbotron{
+	background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=581511fae3d6e46d55eb0b6f3d86b69d&auto=format&fit=crop&w=1350&q=80");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color: #0e0e0e;
+	background-color: rgba(0,0,0,1);
+}
+
+
+.display-4{
+	font-family: Merriweather;
+	font-size: 2.5rem;
+	color:black;
+}
+
+#update{
+	text-align: center;
+}

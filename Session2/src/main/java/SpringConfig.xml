@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- <bean id="car" class="com.yoon.Lecture2.Car" autowire="byType">
+	<property name="year" value="2005"></property>
+</bean>
+
+<bean id="r" class="com.yoon.Lecture2.Radio" primary="true">
+	<property name="station" value="98.5"></property>
+</bean>
+
+<bean id="r2" class="com.yoon.Lecture2.Radio" >
+	<property name="station" value="98.5"></property>
+</bean> -->
+
+
+<!-- <bean id="car" class="com.yoon.Lecture2.Car" init-method="dbConnect" destroy-method="dbClose">
+	<property name="year" value="2000"></property>
+</bean> -->
+
+<bean id="r" class="com.yoon.Radio" >
+	<property name="station" value="98.5"></property>
+</bean>
+
+<bean id="car" class="com.yoon.Car2" autowire="byType">
+	<property name="year" value="2000"></property>
+</bean>
+
+</beans>
