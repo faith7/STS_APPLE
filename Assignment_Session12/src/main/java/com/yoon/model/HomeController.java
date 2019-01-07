@@ -29,10 +29,10 @@ public class HomeController {
 		return alien;
 	}
 	
-	@RequestMapping("/")
+/*	@RequestMapping("/")
 	public String home(){
 		return "addAliens";
-	}
+	}*/
 	
 	@PostMapping("/addAliens")
 	public ModelAndView addAlien(@ModelAttribute("alien") Alien alien,ModelAndView mv) {
