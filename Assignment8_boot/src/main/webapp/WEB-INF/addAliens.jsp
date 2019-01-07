@@ -28,8 +28,7 @@
 		  
 	</select> 
 		</td></tr>
-   
-</form:select>
+  
 	</table>
 	<br>
 	<input type="submit" value="Submit">
